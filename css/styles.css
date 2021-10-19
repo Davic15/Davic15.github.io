@@ -1,4 +1,17 @@
 h1 {
-    font-family: monospace;
-    font-size: 2.5rem;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#center-class {
+    text-align: center;
+}
+
+#image-profile {
+    border-radius: 20%;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+#about-me {
+    
 }
