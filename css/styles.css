@@ -7,9 +7,9 @@ h1 {
 }
 
 #image-profile {
-    border-radius: 20%;
-    max-width: 350px;
-    max-height: 350px;
+    border-radius: 50%;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #about-me {
