@@ -226,42 +226,50 @@
                         <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
                             <!-- Android Project -->
                             <div class="col">
-                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpg" class="card-img-top" alt="...">
+                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpeg" class="card-img-top" alt="...">
                                     <div class="label-top shadow-sm">Android Project</div>
                                     <div class="card-body">
                                         <h5 class="card-title">Project Developed for Mobile Application Development at University. The focus of the project was to borrow and/or lend books.</h5>
                                         <div class="text-center my-4"> 
-                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#android-project">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#android-project">
                                                 More info
                                             </button>
-
-                                            <div class="modal fade" id="android-project" tabindex="-1" role="dialog" aria-labelledby="android-project-title" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                                  <div class="modal-content">
-                                                    <div class="modal-header">
-                                                      <h5 class="modal-title" id="android-project-long-title">Modal title</h5>
-                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                      </button>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="android-project" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="android-project-label" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-centered">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="android-project-label">Android Project - AppShareBooks</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="ratio ratio-16x9">
+                                                                <iframe src="videos/android-project.mp4" title="Android Project" allowfullscreen></iframe>
+                                                            </div>
+                                                            <p>
+                                                                App that helps people to share books
+                                                                <ul>
+                                                                    <li>The app should easily allow users to sign up and setup a basic profile.</li>
+                                                                    <li>Users can make books available for sharing, providing all the relevant pieces of information by accessing some shared database.</li>
+                                                                    <li>Users can search for shared books and get in contact, via the app, with the book owner in order to arrange the withdrawal and successive return.</li>
+                                                                    <li>As a consequence of each sharing, users' reputation must be updated.</li>
+                                                                </ul>
+                                                            </p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                        </div>
                                                     </div>
-                                                    <div class="modal-body">
-                                                      ...
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                      <button type="button" class="btn btn-primary">Save changes</button>
-                                                    </div>
-                                                  </div>
                                                 </div>
-                                              </div>
-
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- React Project -->
                             <div class="col">
-                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpg" class="card-img-top" alt="...">
+                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpeg" class="card-img-top" alt="...">
                                     <div class="label-top shadow-sm">DELL</div>
                                     <div class="card-body">
                                         <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
@@ -270,7 +278,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpg" class="card-img-top" alt="...">
+                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpeg" class="card-img-top" alt="...">
                                     <div class="label-top shadow-sm">Asus Rog</div>
                                     <div class="card-body">
                                         <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
@@ -280,7 +288,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpg" class="card-img-top" alt="...">
+                                <div class="card h-100 shadow-sm"> <img src="images/photo.jpeg" class="card-img-top" alt="...">
                                     <div class="label-top shadow-sm">DELL</div>
                                     <div class="card-body">
                                         <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
@@ -295,6 +303,13 @@
             </div>
 
         </section>
+
+
+
+
+
+        
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
