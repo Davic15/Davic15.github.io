@@ -45,7 +45,6 @@
             <div class="center-class">
                 <h1 class="display-6">Franklin David Macias Avellan</h1>
                 <h1 class="display-6">Software Engineer (Front-End Web Developer)</h1>
-                <h1 class="display-6">我的名子叫凡淋。 我是个程序员。 我的专业是写手机程序</h1>
                 <img id="image-profile" class="img-fluid" src="images/photo.jpeg" alt="Profile Picture" />
             </div>
             <br />
@@ -238,7 +237,7 @@
                                             </button>
                                             <!-- Modal -->
                                             <div class="modal fade" id="android-project" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="android-project-label" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
                                                             <h5 class="modal-title" id="android-project-label">Android Project - AppShareBooks</h5>
@@ -279,16 +278,39 @@
                                             </button>
                                             <!-- Modal -->
                                             <div class="modal fade" id="pulse-project" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="pulse-project-label" aria-hidden="true">
-                                                <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-dialog modal-dialog-centered modal-lg">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
                                                             <h5 class="modal-title" id="pulse-project-label">Web Application Project - PULSeBS</h5>
                                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <div class="ratio ratio-16x9">
-                                                                <iframe src="videos/android-project.mp4" title="Android Project" allowfullscreen></iframe>
-                                                            </div>
+                                                            <div id="carousel-react-project" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                                                <div class="carousel-indicators">
+                                                                  <button type="button" data-bs-target="#carousel-react-project" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                                                  <button type="button" data-bs-target="#carousel-react-project" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                                  <button type="button" data-bs-target="#carousel-react-project" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                                                </div>
+                                                                <div class="carousel-inner">
+                                                                  <div class="carousel-item active">
+                                                                    <img src="images/1.png" class="d-block w-100" alt="React Project Login">
+                                                                  </div>
+                                                                  <div class="carousel-item">
+                                                                    <img src="images/2.jpg" class="d-block w-100" alt="React Project Reports">
+                                                                  </div>
+                                                                  <div class="carousel-item">
+                                                                    <img src="images/3.jpg" class="d-block w-100" alt="React Project Reports">
+                                                                  </div>
+                                                                </div>
+                                                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-react-project" data-bs-slide="prev">
+                                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                  <span class="visually-hidden">Previous</span>
+                                                                </button>
+                                                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-react-project" data-bs-slide="next">
+                                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                  <span class="visually-hidden">Next</span>
+                                                                </button>
+                                                              </div>
                                                             <p>
                                                                 The Web Application allows to book seats and schedule classes in some kind of educational institute. 
                                                                 Professors can upload subjects with dates and student can book a seat for any class.
