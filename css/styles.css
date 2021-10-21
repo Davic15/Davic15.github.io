@@ -7,7 +7,7 @@ body {
 }
 
 #image-profile {
-    border-radius: 50%;
+    border-radius: 10%;
     max-width: 250px;
     max-height: 250px;
 }
