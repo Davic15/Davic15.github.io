@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./icon/coding.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG4YCNVQMW"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-RG4YCNVQMW');
+        </script>
+        <title>DevFranklin Portfolio Website</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Franklin Macias</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end web developer</p>
+            <img src="img/dev-david-01.jpg" alt="profile picture" class="intro__img">
+        </section>
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>
+                        Design websites from scratch using the latest technologies in the market like HTML, CSS and JavaScript. 
+                        Continuous iterations are used to produce results quickly and continuously improve products.               
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>UI/UX and Responsive Design</h3>
+                    <p>
+                        Due to the fact more and more users access the Internet from mobile devices, 
+                        Websites are adapted to the size of the screen.
+                        Every website is unique and has its own user experience based on the client requests.
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>An Agile Collaborator</h3>
+                    <p>
+                        New technologies, new framework and solutions are deployed to develop new projects in order to stay ahead of 
+                        competition and bring the best features to your platform . 
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Web developer based in Italy</p>
+           
+           <div class="about-me__body">
+               <p>
+                    Hello, I am Franklin Macias. Nice to meet you.
+                    I am an experience in front-end developer and have good knowledge of HTML, CSS, JavaScript (ES6), React.js, Node.js, MongoDB and Express.js.
+                </p>
+               <p>
+                    On a personal level, I am highly motivated, result oriented, self-driven, hardworking, fast learner and constantly seeking to improve my skills, 
+                    and I am an avid user of the latest front-end development tools. 
+                </p>
+                <p>
+                    I adapt well to different culture and environment.  I  am independent as an individual contributor but I am team oriented and get along well with 
+                    others when working in a group.
+                </p>
+           </div>
+           
+           <img src="img/dev-frank-02.jpg" alt="profile picture" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="/work-items/portfolio-item-one.html" class="portfolio__item">
+                    <img src="img/portfolio-01.png" alt="yes no api project" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="/work-items/portfolio-item-two.html" class="portfolio__item">
+                    <img src="img/portfolio-02.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="/work-items/portfolio-item-three.html" class="portfolio__item">
+                    <img src="img/portfolio-03.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="/work-items/portfolio-item-four.html" class="portfolio__item">
+                    <img src="img/portfolio-04.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="/work-items/portfolio-item-five.html" class="portfolio__item">
+                    <img src="img/portfolio-05.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="/work-items/portfolio-item-six.html" class="portfolio__item">
+                    <img src="img/portfolio-06.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <!--<a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>-->
+                
+                <!-- Portfolio item 08 -->
+                <!--<a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>-->
+                
+                <!-- Portfolio item 09 -->
+                <!--<a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>-->
+                
+                <!-- Portfolio item 0 0-->
+                <!--<a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>-->
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:franklindavid.maciasavellan@gmail.com" class="footer__link">franklindavid.maciasavellan@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www1.linkedin.com/in/franklin-david-macias-avellan-704030188/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Davic15" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="./file/Franklin_Resume1.pdf" target="_blank">
+                        <i class="fas fa-file"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>
