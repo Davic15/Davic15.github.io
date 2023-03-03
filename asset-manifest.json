@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ca980f30.css",
-    "main.js": "/static/js/main.445fb7c0.js",
+    "main.js": "/static/js/main.92aa7a00.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
@@ -9,6 +9,7 @@
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/Franklin_Resume_v2.pdf": "/static/media/Franklin_Resume_v2.f12153a14d1467b18ce8.pdf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/logo.svg": "/static/media/logo.dac162c655535f6abd9ee19278a5f871.svg",
@@ -23,10 +24,10 @@
     "index.html": "/index.html",
     "static/media/websiteIcon.svg": "/static/media/websiteIcon.41f148a81b63b8b2463834cbf566dff6.svg",
     "main.ca980f30.css.map": "/static/css/main.ca980f30.css.map",
-    "main.445fb7c0.js.map": "/static/js/main.445fb7c0.js.map"
+    "main.92aa7a00.js.map": "/static/js/main.92aa7a00.js.map"
   },
   "entrypoints": [
     "static/css/main.ca980f30.css",
-    "static/js/main.445fb7c0.js"
+    "static/js/main.92aa7a00.js"
   ]
 }
